@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="Js.js"></script>
+</head>
+<body>
+
+<div id='contenedor'>
+ 
+    <div id='cabecera'>
+        <div id='logo'>
+
+        </div>
+        <div id='banner'>
+            <h1>CLIMBER SEGUROS</h1>
+        </div>
+    </div>
+    
+    <nav id='menu'>
+        <ul>
+            <li><a href="main.html">Inicio</a></li>
+            <li><a href="#" style="color:gold">Seguros</a>
+                <ul>
+                    <li><a href="seguros.html">Patrimoniales</a></li>
+                    <li><a href="SegurosVida.html" style="color:gold">de Vida</a></li>
+                </ul>
+            </li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li> 
+        </ul>
+    </nav>  
+    
+
+    <div id='cuerpo'>
+        <div id='lSide'>
+            <form>
+            <div class='item' id='VidaIndividual'><input id='btnVidaIndividual' type="button" value="Vida Individual" onclick='CargarCoberturas("Vida Individual")'></div>
+            <div class='item' id='Retiro'><input id='btnRetiro' type='button' value='Retiro' onclick='CargarCoberturas("Retiro")'></div>
+            <div class='item' id='VidaColectivo'><input id='btnVidaColectivo' type="button" value="Vida Colectivo" onclick='CargarCoberturas("Vida Colectivo")'></div>
+        </form>
+        </div>
+        <div id='rSide'>
+            <p id='Cobertura'>Selecciona un ramo: <p>
+        </div>   
+
+    </div>
+
+    <div id='footer'>
+        <p> RESOLUCIÓN SSN 37588 – SERVICIO DE ATENCIÓN AL ASEGURADO <br />
+            La entidad aseguradora dispone de un Servicio de Atención al Asegurado que atenderá las consultas y reclamos que presenten los tomadores de seguros, asegurados, beneficiarios y/o derechohabientes.</p>
+            <a href='https://www.argentina.gob.ar/superintendencia-de-seguros'><img src="img/ssn.jpg"></a>
+    </div>
+
+    
+</div>
+
+
+
+</body>

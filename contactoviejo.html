@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="Js.js"></script>
+</head>
+<body>
+
+<div id='contenedor'>
+ 
+    <div id='cabecera'>
+        <div id='logo'>
+
+        </div>
+        <div id='banner'>
+            <h1>CLIMBER SEGUROS</h1>
+        </div>
+    </div>
+    <nav id='menu'>
+        <ul>
+            <li><a href="main.html">Inicio</a></li>
+            <li><a href="#">Seguros</a>
+                <ul>
+                    <li><a href="seguros.html">Patrimoniales</a></li>
+                    <li><a href="SegurosVida.html">de Vida</a></li>
+                </ul>
+            </li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html" style="color:gold">Contacto</a></li> 
+        </ul>
+    </nav>  
+    <div id='cuerpo'>
+        <div id='lSide' >
+            <img src='img/siniestro.png' width='100%' height="49%"></img>
+            <img src='img/broker-seguro2.jpg' width='100%' height="49%"></img>
+        </div>
+        <div id='rSide'>
+            <img src='img/climb.jpg' width='40%' height='100%' style='float:right'></img>
+            <div id='contacto'>
+                <form>
+                    <table >
+                        <tr>
+                            <td width='120x'><label> Nombre:</label></td>
+                            <td><input type="text" id='txtNombre'></td>
+                        </tr>
+                        <tr>
+                            <td><label>Contacto:</label></td>
+                            <td><label>Email  </label><input type="radio" id='rEmail' name='tipoContacto' onclick="MostrarContacto()">
+                                <label>Telefono</label>
+                                <input type="radio" id='rTelefono' name='tipoContacto' onclick="MostrarContacto()"></td>
+                        </tr>
+                        <tr>
+                            <td><label id="lblContacto"></label></td>
+                            <td><input type="text" id='txtContacto' style='visibility: hidden;' onchange="ValidarContacto()"></td> 
+                        </tr>
+                        <tr>
+                            <td><label>Consulta</label></td>
+                            <td><select name="Consulta" id="cboConsulta" onchange="OpcionesSelector()">
+                                <option value="Cotizacion">Cotizacion</option>
+                                <option value="Siniestro">Siniestro</option>
+                                <option value="Estado-de-Cuenta">Estado de Cuenta</option>
+                                <option value="Polizas-Contratadas">Polizas Contratadas</option>
+                            </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Consulta:</label></td>
+                            <td><textarea id='txaConsulta'rows="10" cols="30"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label id="lblSelector" style='visibility: hidden;'></label></td>
+                            <td><input type="text" id='txtSelector' style='visibility: hidden;' onchange="ValidarSelector()"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="button" id='btnEnviar'value='Enviar' onclick='Enviar()'></td>
+                            
+                        </tr>
+    
+                    </table>  
+                   
+                </form>   
+                
+            </div>       
+            
+        </div>
+    </div>
+
+    <div id='footer'>
+        <p> RESOLUCIÓN SSN 37588 – SERVICIO DE ATENCIÓN AL ASEGURADO <br />
+            La entidad aseguradora dispone de un Servicio de Atención al Asegurado que atenderá las consultas y reclamos que presenten los tomadores de seguros, asegurados, beneficiarios y/o derechohabientes.</p>
+            <a href='https://www.argentina.gob.ar/superintendencia-de-seguros'><img src="img/ssn.jpg"></a>
+    
+    </div>
+
+    
+</div>
+
+
+
+</body>

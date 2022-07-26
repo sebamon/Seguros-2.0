@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Nuestros Seguros</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="Js.js"></script>
+</head>
+<body>
+
+<div id='contenedor'>
+    <div id='cabecera'>
+        <div id='logo'>
+
+        </div>
+        <div id='banner'>
+            <h1>CLIMBER SEGUROS</h1>
+        </div>
+    </div>
+    <nav id='menu'>
+        <ul>
+            <li><a href="main.html">Inicio</a></li>
+            <li><a href="#" style="color:gold">Seguros</a>
+                <ul>
+                    <li><a href="seguros.html" style="color:gold">Patrimoniales</a></li>
+                    <li><a href="SegurosVida.html">de Vida</a></li>
+                </ul>
+            </li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li> 
+        </ul>
+    </nav> 
+    <div id='cuerpo'>
+        <div id='lSide'>
+            <form>
+            <div class='item' id='Automotores'><input id='btnAutomotores' type="button" value="Automores" onclick='CargarCoberturas("Automotores")'></div>
+            <div class='item' id='Hogar'><input id='btnHogar' type='button' value='Hogar' onclick='CargarCoberturas("Hogar")'></div>
+            <div class='item' id='AP'><input id='btnAP' type="button" value="Accidentes Personales" onclick='CargarCoberturas("AP")'></div>
+            <div class='item' id='Comercio'><input id='btnComercio' type="button" value="Integral de Comercio" onclick='CargarCoberturas("Comercio")'></div>
+        </form>
+        </div>
+        <div id='rSide'>
+            <p id='Cobertura'>Selecciona un ramo: <p>
+        </div>   
+
+    </div>
+
+    <div id='footer'>
+    <p> RESOLUCIÓN SSN 37588 – SERVICIO DE ATENCIÓN AL ASEGURADO <br />
+        La entidad aseguradora dispone de un Servicio de Atención al Asegurado que atenderá las consultas y reclamos que presenten los tomadores de seguros, asegurados, beneficiarios y/o derechohabientes.</p>
+        <a href='https://www.argentina.gob.ar/superintendencia-de-seguros'><img src="img/ssn.jpg"></a>
+    </div>
+
+    
+</div>
+
+
+
+</body>
+</html>

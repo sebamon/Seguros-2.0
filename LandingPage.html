@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Conocenos</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" type="text/css" href="styleLP.css">
+    <script type="text/javascript" src="Js.js"></script>
+
+    <meta charset="utf-8">
+
+</head>
+<body>
+    <div id='contenedor'>
+        <div id='cabecera'>
+            <div id='logo'>
+
+            </div>
+            <div id='banner'>
+                <h2>CLIMBER SEGUROS</h2>
+            </div>
+        </div>
+        <div id='cuerpo'>
+        <form>
+            <table>
+                <tr>
+                    <td>Nombre:</td>
+                    <td><input type='text' id='txtNombre' maxlength="20"></td>
+                </tr>
+                <tr>
+                    <td>Telefono:</td>
+                    <td><input type='text' id='txtTelefono' maxlength='10' onchange='ValidarTelefono()'></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type='text' id='txtEmail' onchange='ValidarEmail()'></td>
+                </tr>
+                <tr>
+                    <td><p>Estoy Interesado en: </p></td>
+                    <td></br></td>
+                   
+                </tr>
+                
+
+            </table>
+            <table>
+                <tr>
+                    <td>Automores</td><td><input type="checkbox" id='chkAutomotor'></td>
+                    <td>Hogar</td><td><input type="checkbox" id='chkHogar'></td>
+                </tr>
+                <tr>
+                    <td>Integral de Comercio</td><td><input type="checkbox" id='chkComercio'></td>
+                    <td>Accidentes Personales</td><td><input type="checkbox" id='chkAP'></td>
+                </tr>
+                
+            </table>
+            <div id='botonera' align='center'>
+                <input type='button' value='Aceptar' onclick='IngresarDatos()'>
+                <input type='button' value='Cancelar' onclick='CerrarLandingPage()'>
+            </div>
+
+        </form>
+         </div>
+    </div>
+</body>

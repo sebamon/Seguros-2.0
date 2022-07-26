@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    background-color:skyblue;
+}
+body
+{
+    width: 710px;
+    height: 350px;
+    margin: auto;
+    background-color:white;
+    
+   
+}
+
+#contenedor
+{
+    margin: auto;
+    width: 700px;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+
+}
+
+#cabecera
+{
+    position: inherit;
+    width: 700px;
+    height: 100px;
+    background-image: url('img/banner2.png');
+}
+#logo
+{
+
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    background-image: url('img/logo.png');
+    background-size: 100px;
+}
+#banner
+{
+ 
+    size: large;
+    color:midnightblue;
+    text-align: center;
+    width: 590px;
+    height:100px;
+    float: right;
+}
+#banner h2
+{
+    text-align: left;
+    margin: 30px;
+}
+
+input
+{
+    border-radius: 5px;
+}
+
+#cuerpo
+{
+    width: 650px;
+    font-size: 20px;
+    background-image: url('img/fondo1.jpg');
+    background-size: 700px 300px;
+}
+form
+{
+    color: midnightblue;
+}
+#botonera
+{
+
+    margin: 15px;
+
+}
+#botonera input[type=button]{
+    margin-left: 80px;
+    margin-right: 80px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+
+}

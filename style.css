@@ -1,0 +1,377 @@
+*
+{
+
+    margin:0;
+    padding:0;
+    
+}
+h1
+{
+    text-align: center;
+}
+h3
+{
+    text-align: justify;
+}
+html
+{
+    background-color:skyblue;
+}
+body
+{
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    background-color: white;
+   
+}
+#contenedor
+{
+    margin: auto;
+    width: 1180px;
+    height: 800px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+#cabecera
+{
+    position: inherit;
+    width: 1180px;
+    height: 100px;
+    background-image: url('img/banner2.png');
+}
+#logo
+{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    background-image: url('img/logo.png');
+    background-size: 100px;
+}
+#banner
+{
+    size: large;
+    color:midnightblue;
+    text-align: center;
+    width: 1080px;
+    height:100px;
+    float: right;
+}
+#banner h1
+{
+    margin: 30px;
+}
+#menu
+{
+    width: 480px;
+    height: 60px;
+   /* float:left;*/
+    padding: 0 350px 0 350px;
+    list-style: none;
+    background-color: rgb(97, 161, 235);
+    background-image: url('img/fondo2.jpg');
+	top: 76px;
+    right: 40px;
+    
+/*	line-height: 57px;*/
+	
+	font-family: "Open Sans", sans-serif;
+}
+#menu li {
+	
+    display: inline-block;
+	padding: 10px 10px 10px 10px;
+    margin: 15px 8px 0 8px;
+    
+}
+
+#menu a{
+    margin-top: 10px;
+	text-decoration:none;
+    color: white;
+	font-weight:bold;
+    
+}
+#menu a:hover
+{
+	color: silver;
+	text-decoration:underline
+}
+
+#cuerpo
+{
+  
+    width: 1180px;
+    height: 540px;
+    background-image: url('img/fondo1.jpg');
+    background-size: cover;
+
+}
+#cuerpo p
+{
+    font-size: large;
+
+    color: midnightblue;
+}
+#top
+{
+    
+    padding-top: 20px;
+    width: 1180px;
+    height: 80px;
+
+}
+#middle
+{
+    border-top: solid 2px;;
+    color:powderblue;
+    font-weight: bold;
+    font-style: italic;
+    width: 1180px;
+    height: 220px;
+    
+}
+#bot
+{
+    border-top: solid 2px;;
+    color:lightsteelblue;
+    font-weight: bold;
+    font-style: italic;
+    width: 1180px;
+    height: 220px;
+
+}
+#lSide
+{
+    float:left;
+    width:300px;
+    height: 540px;
+
+
+}
+#rSide
+{
+    float: right;
+    width: 860px;
+    height: 540px;
+
+
+}
+#rSide p{
+
+    color:midnightblue;
+}
+#rSide h1{
+    color:midnightblue;
+    font-weight: bolder;
+}
+.item
+{
+    float:top;
+    width:300px;
+    height: 135px;  
+
+    background-size: 300px 135px;
+ 
+
+}
+.item p
+{
+    text-align: center;
+    font-size: 40px;
+    color:black;
+}
+#Automotores
+{
+    background-image: url('img/Poliza-Automovil.jpg');
+}
+
+#Hogar
+{
+    background-image: url('img/Poliza-Hogar.jpg');
+}
+#AP
+{
+    background-image: url('img/Poliza-AP.png');
+}
+#Comercio
+{
+    background-image: url('img/Poliza-Comercio2.jpg');
+
+}
+#VidaIndividual
+{
+    background-image: url('img/Poliza-VidaIndividual.jpg');
+}
+#Retiro
+{
+    background-image: url('img/Poliza-Retiro.jpg');
+}
+#VidaColectivo
+{
+    background-image: url('img/Poliza-VidaColectivo.jpg');
+}
+
+/* BOTONES SEGUROS*/
+.item input
+{
+    color:rgba(0, 0, 0, 0);
+    background: bottom;
+    width: 300px;
+    height: 135px;
+}
+.item input:hover
+{
+
+    text-align: center;
+    font-size: 28px;
+    color:black;
+
+
+}
+
+#footer
+{
+    text-align: center;
+    color: black;
+    font-size: smaller;
+    width: 1180px;
+    height: 90px;
+    background-color:white;
+
+}
+
+
+/*   RE CODIGO SUB MENU */
+        /* menu */
+
+        #menu ul {
+            list-style:none;
+            margin:0;
+            padding:0;
+            background-image: url('img/fondo2.jpg');
+           }
+           
+           /* items del menu */
+           
+           #menu ul li {
+            background-image: url('img/fondo2.jpg');
+           }
+           
+           /* enlaces del menu */
+           
+           #menu ul a {
+            display:block;
+            color:white;
+            text-decoration:none;
+            padding:10px;
+            letter-spacing:1px;
+           }
+           
+           /* items del menu */
+           
+           #menu ul li {
+            position:relative;
+            float:left;
+            margin:0;
+            padding:0;
+           }
+           
+           
+           #menu ul li:hover {
+           color: gold;   
+           text-decoration: underline; 
+       }
+       #menu ul ul {
+       display:none;
+       position:absolute;
+       top:100%;
+       left:0;
+       background:#eee;
+       padding:0;
+   }
+   
+   
+   #menu ul ul li {
+    float:none;
+    width:150px
+   }
+   #menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+   
+  
+   #menu ul li:hover > ul {
+    display:block;
+   }
+
+   label{
+       color: midnightblue;
+   }
+
+/* CONTACTO */
+
+#contacto
+{
+    padding-left: 15px;
+    margin-top: 10px;
+    border-radius: 5%;
+    border:solid;
+    width: 420px;
+    border-color: midnightblue;
+    
+}
+#contacto input{
+    border-radius: 5px;
+}
+#contacto input[type=text]
+{
+    
+
+    width: 229px;
+}
+#cboConsulta
+{
+    border-radius: 5px;
+    width:229px;
+}
+#txaConsulta
+{
+    border-radius: 5px;
+}
+tr{
+    
+    width: 300px;
+    border: solid;
+}
+#btnEnviar
+{
+    margin-left: 50px;
+    width: 100px;
+    height: 25px;
+}
+
+/*NOSOTROS*/
+#nosotros-izquierda
+{
+    margin-top: 10px;
+    width:400px;
+    float:left;
+}
+#nosotros-derecha
+{
+    margin-top: 10px;
+    width: 760px;
+    float: right;
+}
+#nosotros-pas
+{
+    color:black;
+    margin-top: 50px;
+    margin-left:50px;
+    float:left;
+}
